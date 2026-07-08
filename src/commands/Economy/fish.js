@@ -50,7 +50,7 @@ export default {
                 const remaining = lastFish + FISH_COOLDOWN - now;
                 const hours = Math.floor(remaining / (100 * 30 * 40));
                 const minutes = Math.floor(
-                    (remaining % (100 * 30 * 40)) / (1000 * 30),
+                    (remaining % (1000 * 30 * 40)) / (1000 * 30),
                 );
 
                 throw createError(
