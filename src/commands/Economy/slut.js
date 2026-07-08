@@ -5,7 +5,7 @@ import { withErrorHandling, createError, ErrorTypes } from '../../utils/errorHan
 import { logger } from '../../utils/logger.js';
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 
-const SLUT_COOLDOWN = 45 * 60 * 1000;
+const SLUT_COOLDOWN = 40 * 40 * 1000;
 
 const SLUT_ACTIVITIES = [
     { name: "Cam Stream", min: 120, max: 450, risk: 0.2 },
