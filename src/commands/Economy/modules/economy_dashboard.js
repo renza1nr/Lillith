@@ -246,7 +246,7 @@ async function handleAddCurrency(selectInteraction, rootInteraction, guild, clie
         .setStyle(TextInputStyle.Short)
         .setPlaceholder('100')
         .setMinLength(1)
-        .setMaxLength(10)
+        .setMaxLength(15)
         .setRequired(true);
 
     const typeInput = new TextInputBuilder()
@@ -255,7 +255,7 @@ async function handleAddCurrency(selectInteraction, rootInteraction, guild, clie
         .setStyle(TextInputStyle.Short)
         .setPlaceholder('wallet')
         .setMinLength(1)
-        .setMaxLength(5)
+        .setMaxLength(6)
         .setRequired(true);
 
     modal.addLabelComponents(userLabel);
