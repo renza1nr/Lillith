@@ -159,36 +159,36 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Shmeckle",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "Shmeckles",
       // Currency symbol shown in balances.
       symbol: "$",
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 50000,
 
     // Maximum bank amount before upgrades (if upgrades are used).
     baseBankCapacity: 100000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 10000,
 
     // Work command random payout range.
-    workMin: 10,
-    workMax: 100,
+    workMin: 1000,
+    workMax: 3000,
 
     // Beg command random payout range.
     begMin: 5,
-    begMax: 50,
+    begMax: 500,
 
     // Chance to succeed when robbing (0.4 = 40%).
     robSuccessRate: 0.4,
 
     // Jail time after failed rob (milliseconds).
     // 3600000 = 1 hour.
-    robFailJailTime: 3600000,
+    robFailJailTime: 1800000,
   },
 
   // =========================
