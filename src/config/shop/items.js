@@ -14,7 +14,7 @@ cooldown: 86400000,
         }
     },
     {
-        id: 'bankupgrade1',
+        id: 'bank_upgrade_1',
         name: 'Bank Upgrade I',
         price: 20000,
         description: 'Increases bank capacity and allows more funds to be deposited.',
