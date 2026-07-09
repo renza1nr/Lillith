@@ -19,7 +19,7 @@ cooldown: 86400000,
         price: 20000,
         description: 'Increases bank capacity and allows more funds to be deposited.',
         type: 'upgrade',
-        maxLevel: 15,
+        maxLevel: 1000,
         effect: {
             type: 'bank_capacity',
             multiplier: 1.5
