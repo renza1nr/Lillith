@@ -8,11 +8,11 @@ import { validateDiscordId, validateNumber } from './validation.js';
 import { DEFAULT_ECONOMY_DATA } from './constants.js';
 
 const ECONOMY_CONFIG = BotConfig.economy || {};
-const BASE_BANK_CAPACITY = ECONOMY_CONFIG.baseBankCapacity || 100000;
-const BANK_CAPACITY_PER_LEVEL = ECONOMY_CONFIG.bankCapacityPerLevel || 50000;
-const DAILY_AMOUNT = ECONOMY_CONFIG.dailyAmount || 100;
-const WORK_MIN = ECONOMY_CONFIG.workMin || 10;
-const WORK_MAX = ECONOMY_CONFIG.workMax || 100;
+const BASE_BANK_CAPACITY = ECONOMY_CONFIG.baseBankCapacity ?? 100000;
+const DAILY_AMOUNT = ECONOMY_CONFIG.dailyAmount ?? 100;
+const WORK_MIN = ECONOMY_CONFIG.workMin ?? 10;
+const WORK_MAX = ECONOMY_CONFIG.workMax ?? 100;
+const BANK_CAPACITY_PER_LEVEL = ECONOMY_CONFIG.bankCapacityPerLevel ?? 50000;
 const COOLDOWNS = ECONOMY_CONFIG.cooldowns || {
 daily: 24 * 60 * 60 * 1000,
 work: 60 * 60 * 1000,
