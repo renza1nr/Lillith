@@ -49,6 +49,7 @@ export const commandAliases = {
 
     'user': 'userinfo',
     'avatar': 'avatar',
+    'av': 'avatar',
     'pfp': 'avatar',
     'icon': 'avatar',
 
@@ -76,7 +77,6 @@ export const commandAliases = {
 
     'ver': 'verify',
     'vadmin': 'verification',
-    'av': 'autoverify',
 
     'welcome': 'welcome',
     'greet': 'greet',
