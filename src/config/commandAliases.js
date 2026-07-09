@@ -42,6 +42,7 @@ export const commandAliases = {
     'top': 'leaderboard',
 
     'shop': 'shop',
+    'store': 'shop',
     'buy': 'buy',
     'inventory': 'inventory',
     'inv': 'inventory',
