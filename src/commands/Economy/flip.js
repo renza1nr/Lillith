@@ -9,7 +9,14 @@ export default {
     .setName("flip")
     .setDescription("Flips a coin (Heads or Tails)."),
   category: 'Fun',
-
+.addIntegerOption(option =>
+            option
+                .setName('amount')
+                .setDescription('Amount of cash to flip')
+                .setRequired(true)
+                .setMinValue(1)
+        ),
+    
   async execute(interaction, config, client) {
     try {
       const result = Math.random() < 0.5 ? "Heads" : "Tails";
