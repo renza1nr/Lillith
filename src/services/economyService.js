@@ -17,7 +17,7 @@ class EconomyService {
   static FISH_COOLDOWN = 45 * 60 * 1000;
   static BEG_COOLDOWN = 30 * 60 * 1000;
   
-  static DAILY_AMOUNT = 1000;
+  static DAILY_AMOUNT = 25000;
   static MAX_SAFE_INTEGER = Number.MAX_SAFE_INTEGER;
 
   static assertSafeBalance(value, context = {}) {
