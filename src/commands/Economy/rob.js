@@ -7,7 +7,6 @@ import { InteractionHelper } from '../../utils/interactionHelper.js';
 const ROB_COOLDOWN = 2 * 60 * 60 * 1000;
 const BASE_ROB_SUCCESS_CHANCE = 0.45;
 const ROB_PERCENTAGE = 0.15;
-const FINE_PERCENTAGE = 0.05;
 
 export default {
     data: new SlashCommandBuilder()
